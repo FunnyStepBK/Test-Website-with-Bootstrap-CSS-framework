@@ -1,0 +1,93 @@
+:root { 
+    --font-sans-serif: "Roboto", sans-serif;
+    --blue: #2067f5;
+    --primary-color: #2067f5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600; 
+}
+
+#Navbar a {
+    border-radius: 6px;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+}
+
+#Navbar a:hover {
+    color: #404040;
+}
+
+.btn {
+    padding: .4rem 1.75rem
+}
+
+.btn:hover {
+    color: #0d6efd!important ;
+    background-color: #fff!important ;
+}
+
+#Navbar a:hover {
+    background-color: #CBD5E1;
+}
+
+.nav-item {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#navbarSupportedContent {
+    justify-content: end!important;
+    flex-grow: 0;
+}
+
+.navbar-toggler-icon:focus {
+    box-shadow: none!important;
+}
+
+.header-link{
+    text-decoration: none;
+}
+
+.d-grid button {
+    box-shadow: -4px 4px 1px 0px #c1c1c1;
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+}
+
+.lg-button:hover {
+    border-color: var(--primary-color);
+}
+
+.application-cont form button {
+    font-family: "inter", sans-serif;
+}
+
+#footer footer ul {
+    gap: 20px;
+}
+
+#footer footer ul li a {
+    color: var(--bs-body-color);
+}
+
+#footer footer ul li a:hover {
+    color: #404040;
+    text-decoration: underline;
+    text-decoration-thickness: 1.4px;
+} 
+
+@media screen and (max-width:767px) {
+
+    .navbar-nav .nav-link {
+        padding-left: 5px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    #logo-576 {
+        display: none!important;
+    }
+}
